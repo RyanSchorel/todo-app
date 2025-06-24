@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
-  background-color: #191b21;
+  background-color: #dddbd2;
   color: #fff;
   font-weight: 700; 
 }
@@ -10,7 +10,7 @@ header {
   display: flex;
   align-items: center;
   padding: 1rem;
-  background-color: #393E46;
+  background-color: #b6b19e;
 }
 
 .logo {
@@ -20,7 +20,7 @@ header {
 
 h1 {
   font-size: 1.8rem;
-  color: #DFD0B8;
+  color: #eae4d4;
   font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ main {
 
 .task-input button {
   padding: 0.5rem 1rem;
-  background: #DFD0B8;
+  background: #b6b19e;
   border: none;
   cursor: pointer;
   border-radius: 10px;
@@ -62,7 +62,7 @@ main {
 .category {
   flex: 1;
   min-width: 250px;
-  background-color: #333;
+  background-color: #7e7d7d;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -103,7 +103,7 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.8rem;
-  background-color: #333;
+  background-color: #7e7d7d;
   font-weight: 700;
 }
 
