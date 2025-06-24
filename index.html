@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>To do app</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+ 
+    <h1>To Do App</h1>
+  </header>
+
+  <main>
+    <section class="task-input">
+      <input type="text" id="taskInput" placeholder="Nieuwe taak toevoegen..." />
+      <select id="categorySelect">
+        <option value="Werk">Werk</option>
+        <option value="Persoonlijk">Persoonlijk</option>
+        <option value="VrijeTijd">Vrije tijd</option>
+      </select>
+      <button onclick="addTask()">Voeg toe</button>
+    </section>
+
+    <section class="categories">
+      <div class="category" id="Werk">
+        <h2>Werk</h2>
+        <ul class="task-list"></ul>
+      </div>
+      <div class="category" id="Persoonlijk">
+        <h2>Persoonlijk</h2>
+        <ul class="task-list"></ul>
+      </div>
+      <div id="VrijeTijd" class="category">
+        <h2>Vrije tijd</h2>
+        <ul class="task-list"></ul>
+      </div>
+    </section>
+  </main>
+
+<footer>
+  <p>© 2025 <a href="https://ryanschorel.nl/" class="ryanschorel" target="_blank"> Ryan Schorel</a> · All Rights Reserved</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
