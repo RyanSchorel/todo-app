@@ -1,53 +1,232 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Ryan Schorel - Portfolio</title>
+  <style>
 
-  <title>To do app</title>
-  <link rel="stylesheet" href="style.css" />
+  </style>
+  <script async data-id="five-server" data-file="c:\Users\ryans\OneDrive\Documenten\MA LEERJAAR 3\porto\index.html"
+    type="application/javascript" src="/fiveserver.js"></script>
 </head>
 
 <body>
-  <header>
- 
-    <h1>To Do App</h1>
+  <header class="hero">
+    <div>
+      <h1>Hey! Ik ben <span>Ryan Schorel</span>, een software & web developer in Amsterdam</h1>
+      <a href="info.html">Neem contact op</a>
+      <a href="#projecten">Bekijk projecten</a>
+
+      </a>
+
+    </div>
+    <img src="Ryan.jpeg" alt="Ryan Schorel profielfoto" />
   </header>
 
-  <main>
-    <section class="task-input">
-      <input type="text" id="taskInput" placeholder="Nieuwe taak toevoegen..." />
-      <select id="categorySelect">
-        <option value="Werk">Werk</option>
-        <option value="Persoonlijk">Persoonlijk</option>
-        <option value="VrijeTijd">Vrije tijd</option>
-      </select>
-      <button onclick="addTask()">Voeg toe</button>
-    </section>
-
-    <section class="categories">
-      <div class="category" id="Werk">
-        <h2>Werk</h2>
-        <ul class="task-list"></ul>
+  <section class="about">
+    <h2>Over mij</h2>
+    <p>Ik ben Ryan. Mijn passie ligt bij het ontwikkelen van coole en interessante websites die zowel
+      functioneel
+      als visueel aantrekkelijk zijn. Momenteel volg ik de opleiding Software Developer aan het Media College in
+      Amsterdam, waar ik me specialiseer in webtechnologieën en design. Ik zit nu in mijn derde leerjaar en ben
+      voortdurend op zoek naar nieuwe uitdagingen en projecten om mijn vaardigheden te verbeteren. Naast mijn
+      studie
+      houd ik ervan om op de hoogte te blijven van de nieuwste trends in technologie. Altijd enthousiast om mijn
+      kennis en creativiteit te gebruiken! Stuur mij een mail als je interesse hebt om samen te werken!</p>
+  </section>
+  <section class="ervaring">
+    <h2>Mijn Ervaring</h2>
+        <div class="ervaring-card">
+      <h3>Stage Software Developer</h3>
+      <div class="company">Socrates</div>
+      <div class="period">1 september 2025 - Heden</div>
+      <div class="schedule">5 dagen per week | 09:00 - 17:00</div>
+      <div class="description">
+        Ik loop momenteel stage bij het bedrijf Socrates. Tijdens me stage werk ik met de progammeertalen en datebasen zoals phpMyAdmin, PHP, JS, CSS, en HTML
       </div>
-      <div class="category" id="Persoonlijk">
-        <h2>Persoonlijk</h2>
-        <ul class="task-list"></ul>
+      <div class="tech-tags">
+        <span class="tech-tag">PHP</span>
+        <span class="tech-tag">XAMPP</span>
+        <span class="tech-tag">Databases</span>
+        <span class="tech-tag">HTML</span>
+        <span class="tech-tag">CSS</span>
+        <span class="tech-tag">JS</span>
+
+
+
+
       </div>
-      <div id="VrijeTijd" class="category">
-        <h2>Vrije tijd</h2>
-        <ul class="task-list"></ul>
+    </div>
+    <br>
+    <div class="ervaring-card">
+      <h3>Stage Software Developer</h3>
+      <div class="company">Code Academy B.V.</div>
+      <div class="period">3 maart 2025 - 7 april 2025</div>
+      <div class="schedule">5 dagen per week | 09:00 - 17:00</div>
+      <div class="description">
+        Ik liep stage bij Code Academy B.V.
+        Tijdens mijn stage werk ik aan diverse projecten van klanten waarbij ik mijn vaardigheden verder ontwikkelde
+        en leerde hoe je in een professionele omgeving kan werken.
       </div>
-    </section>
-  </main>
+      <div class="tech-tags">
+        <span class="tech-tag">HTML</span>
+        <span class="tech-tag">CSS</span>
+        <span class="tech-tag">Custom CMS</span>
+      </div>
+    </div>
+  </section>
+  <section class="projecten" id="projecten">
+    <h2>Projecten</h2>
+    <p class="Ptext">Bekijk mijn beste projecten waaraan ik gewerkt heb.</p>
 
-<footer>
-  <p>© 2025 <a href="https://ryanschorel.nl/" class="ryanschorel" target="_blank"> Ryan Schorel</a> · All Rights Reserved</p>
-</footer>
+    <div class="projecten-list">
+        <article>
+        <h3>To Do App</h3>
+        <p>Deze website heb ik gemaak, omdat dit mensen kan helpen om hun to do list digitaal bij te houden en af te vinken.</p>
+        <button class="button"><a href="project9.html" >Bekijk project</a></button>
+      </article>
+
+      <article>
+        <h3>Dagmenu</h3>
+        <p>Deze website is op maat gemaakt voor een kennis die 
+          gezonder wil gaan leven en wil beginnen met afvallen aan de hand van dagmenu’s. 
+          Daarnaast biedt de site een overzicht van diverse recepten. 
+          Het project is ontwikkeld met React en Tailwind.</p>
+        <button class="button"><a href="project8.html" >Bekijk project</a></button>
+      </article>
+      <article>
+        <h3>Movie App</h3>
+        <p>Ik heb dit project opgezet om mijn vaardigheden in React te oefenen en verder te ontwikkelen.
+        </p>
+        <button class="button"><a href="project7.html">Bekijk project</a></button>
+      </article>
+      <article>
+        <h3>HEMA Webshop</h3>
+        <p>Voor dit project kregen we de opdracht om een webshop na te maken in de stijl van HEMA.
+        </p>
+        <button class="button"><a href="project5.html">Bekijk project</a></button>
+      </article>
 
 
-  <script src="script.js"></script>
+
+      <article>
+        <h3>Infinite scroller</h3>
+        <p>Een infinite scroller geïnspireerd op Instagram, waarin afbeeldingen van honden worden weergegeven. Dit project heb ik gemaakt in mijn tweede leerjaar.
+        </p>
+        <button class="button"><a href="project1.html">Bekijk
+            project</a></button>
+      </article>
+      <article>
+        <h3>Maps Downloads</h3>
+        <p>Ik ben een eigen project gestart: een website waarop alle maps verzameld worden die in de spotlight hebben gestaan op het YouTube kanaal Alperplayz.
+        </p>
+        <button class="button"><a href="project2.html">Bekijk project</a></button>
+
+      </article>
+
+      <article>
+        <h3>PNB Remake Website</h3>
+        <p>Een YouTuber had ooit een website die inmiddels offline is gegaan. Ik heb deze opnieuw tot leven gebracht door de site, op basis van mijn herinneringen, volledig na te bouwen.</p>
+        <button class="button"><a href="project3.html">Bekijk project</a></button>
+      </article>
+
+
+      <article>
+        <h3>Nationaal Videogame Museum</h3>
+        <p>Bij dit project, dat ik in mijn eerste schooljaar op het Mediacollege Amsterdam uitvoerde, was de opdracht om een website te ontwerpen en bouwen voor het Nationaal Videogame Museum.</p>
+        <button class="button"><a href="project4.html">Bekijk project</a></button>
+      </article>
+
+
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>Mijn skills</h2>
+    <p>Momenteel volg ik een opleiding waarbij ik me richt op het coderen en ontwerpen van websites. Tijdens deze
+      opleiding leer ik de technische kant, zoals React, HTML, CSS, SCSS, JavaScript, Json, Pyhton, PHP, MySQL, Laravel en
+      Wordpress, maar
+      ook hoe ik mooie designs kan maken. Elk project is een kans om mijn vaardigheden te verbeteren voor
+      webdesign
+      en code uitdagingen.</p>
+    <p class="skill-label">Design</p>
+    <div class="progressbar">
+      <div class="progress" style="width:80%;"></div>
+    </div>
+    <p class="skill-label">Code</p>
+    <div class="progressbar">
+      <div class="progress" style="width:65%;"></div>
+    </div>
+  </section>
+  <a class="top" href="index.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white">
+      <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z" />
+      <path d="m7.293 13.293 1.414 1.414L12 11.414l3.293 3.293 1.414-1.414L12 8.586l-4.707 4.707z" />
+    </svg>
+  </a>
+
+  <footer>© 2025 Ryan Schorel · All Rights Reserved</footer>
+
+  <script>
+    let buffer = [];
+    const code = "party";
+    let partyActive = false;
+
+    document.addEventListener("keydown", function (e) {
+      buffer.push(e.key.toLowerCase());
+      buffer = buffer.slice(-code.length);
+
+      if (buffer.join("") === code && !partyActive) {
+        startPartyMode();
+      }
+    });
+
+    function startPartyMode() {
+      partyActive = true;
+      createConfetti();
+      animateText();
+
+      setTimeout(() => {
+        endPartyMode();
+      }, 5000);
+    }
+
+    function createConfetti() {
+      for (let i = 0; i < 100; i++) {
+        const confetti = document.createElement("div");
+        confetti.className = "confetti";
+        confetti.style.left = Math.random() * 100 + "vw";
+        confetti.style.animationDuration = (Math.random() * 3 + 2) + "s";
+        confetti.style.backgroundColor = getRandomColor();
+        document.body.appendChild(confetti);
+
+        setTimeout(() => confetti.remove(), 5000);
+      }
+    }
+
+    function animateText() {
+      const elements = document.querySelectorAll("h1, h2, h3, p, a, span");
+      elements.forEach(el => el.classList.add("rainbow-text"));
+    }
+
+    function endPartyMode() {
+      partyActive = false;
+      document.querySelectorAll(".confetti").forEach(el => el.remove());
+      document.querySelectorAll("h1, h2, h3, p, a, span,imng").forEach(el => {
+        el.classList.remove("rainbow-text");
+        el.style.color = "";
+      });
+    }
+
+    function getRandomColor() {
+      const colors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3"];
+      return colors[Math.floor(Math.random() * colors.length)];
+    }
+  </script>
 </body>
 
 </html>
