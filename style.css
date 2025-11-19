@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
   background-color: #dddbd2;
+
   color: #fff;
   font-weight: 700; 
 }
@@ -11,6 +12,7 @@ header {
   align-items: center;
   padding: 1rem;
   background-color: #b6b19e;
+
 }
 
 .logo {
@@ -88,7 +90,7 @@ main {
 .task-list li.completed {
   text-decoration: line-through rgb(195, 39, 39);
   text-decoration-thickness: 0.2rem;
-  color: rgb(205, 205, 205);
+  color: rgb(218, 218, 218);
 }
 
 .task-list button {
@@ -103,7 +105,7 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.8rem;
-  background-color: #7e7d7d;
+  background-color: #333;
   font-weight: 700;
 }
 
@@ -114,7 +116,7 @@ footer {
 }
 
 .ryanschorel:hover {
-  color: #1ef3ab; 
+  color: #DFD0B8; 
 }
 
 
